@@ -1,3 +1,5 @@
+using System.Net.Security;
+
 namespace Tutoral_2_2
 {
     public partial class Form1 : Form
@@ -5,6 +7,11 @@ namespace Tutoral_2_2
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(" world OwO");
         }
     }
 }
